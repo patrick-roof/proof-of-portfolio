@@ -1,0 +1,26 @@
+html, body {
+    background: #E8F7EE;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    background: #E8F7EE;
+}
+
+.nav-item a.nav-link.active {
+    /* color:white; */
+    background-color:#E98A15;
+};
+
+.nav-item a.nav-link {
+    background-color:#E98A15;
+    color: #E8F7EE;
+};
+
+@media screen and (max-width: 768px) {
+    #portfolio-row {
+        flex-direction: column;
+    }
+}
