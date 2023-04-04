@@ -38,7 +38,7 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !name) {
+    if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
       return;
     }
@@ -87,7 +87,7 @@ export default function Contact() {
           >Submit</button>
         </form>
         {errorMessage && (
-          <div>
+          <div className='p-2 d-flex align-content-center flex-wrap'>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
