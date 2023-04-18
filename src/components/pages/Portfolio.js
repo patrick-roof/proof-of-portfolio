@@ -3,7 +3,7 @@ import '../../styles/App.css';
 import knowYourMusic from '../../assets/images/know-your-music.png'
 import workoutInator from '../../assets/images/workout-inator.png'
 import codingQuiz from '../../assets/images/coding-quiz.png'
-import colors from '../../assets/images/colors.png'
+import insulink from '../../assets/images/insulink.png'
 
 
 const styles = {
@@ -91,16 +91,17 @@ export default function Portfolio() {
 
             <div className='col-sm-6' style={styles.cardPadding}>
               <section className='card' style={styles.cardSize}>
-                <a href='Placeholder Link'>
-                  <img src={colors} 
+                <a href={"https://insulink-develop.up.railway.app/"}>
+                  <img src={insulink} 
                   className='card-img-top' 
                   alt='' 
                   style={{height: 360 + 'px'}}
                   ></img>
                 </a>
                   <div className='card-body' style={styles.cardText}>
-                    <h5 className='card-title'>Group Project 3</h5>
-                    <p className='card-text'>Coming soon</p>
+                    <h5 className='card-title'>InsuLink</h5>
+                    <p className='card-text'>
+                      An app that allows users to connect with others that have Type 1 Diabetes</p>
                   </div>
               </section>
             </div>
